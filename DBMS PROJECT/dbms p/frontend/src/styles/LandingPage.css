@@ -1,0 +1,75 @@
+.landing-page {
+    background-image: url(../../public/career.png);
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .lp_navbar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .lp_buttons {
+    justify-content: left;
+    display: flex;
+    
+  }
+  
+  .lp_login-button {
+   
+    
+    
+    margin-right: 1rem;
+  }
+  .lp_register-button{
+  
+    margin-right: 1rem;
+  }
+  .lp_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 100px);
+  }
+  
+  .lp_title {
+    color: black;
+    text-align: center;
+  }
+  
+  .lp_description {
+    color: black;
+    text-align: center;
+  }
+  
+  .lp_cta-button {
+    background-color: rgb(161, 107, 107);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  
+  .lp_footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .lp_a{
+    color:white;
+  }
+  
