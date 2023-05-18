@@ -35,7 +35,7 @@ app.use("/api/v1/poc",pocRouter);
 
 
 app.get("/", (req, res) => {
-  res.send("Nice working"); jefknq;4ajejfjaeij ioejrofioi
+  res.send("Nice working");
 });
 
 // Using Error Middleware
